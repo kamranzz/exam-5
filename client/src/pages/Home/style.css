@@ -1,0 +1,159 @@
+.image-hero {
+    position: relative;
+}
+
+.image-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.container.banner-content {
+    position: relative;
+    z-index: 2;
+}
+
+
+.image-hero {
+    height: 100vh;
+    background: url("https://preview.colorlib.com/theme/gym/img/header-bg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.banner-content h6 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1em;
+    margin-top: 20px;
+}
+
+.single-course {
+    padding-bottom: 50px;
+}
+.single-course .thumb {
+    overflow: hidden;
+}
+.single-course .course-status {
+    background-color: #f6214b;
+    color: #fff;
+    padding: 10px 40px;
+    margin-left: 20px;
+    margin-top: -60px;
+    position: absolute;
+    display: flex;
+}
+.single-course h4 {
+    padding: 20px 0;
+    font-size: 18px;
+    width: 350px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+.single-course h4 span {
+    float: right;
+    color: #f6214b;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+.section-gap {
+    padding: 120px 0;
+}
+.callto-area {
+    text-align: center;
+    background: url("https://preview.colorlib.com/theme/gym/img/callto-bg.jpg") center;
+    background-size: cover;
+}
+.callto-area .overlay-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.callto-area{
+    position: relative;
+}
+.callto-area .primary-btn:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.callto-area .primary-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease 0s;
+}
+.primary-btn:hover {
+    color: #fff;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+}
+.callto-area .col-lg-12{
+    z-index: 100;
+}
+.primary-btn {
+    background-color: #f6214b;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+}

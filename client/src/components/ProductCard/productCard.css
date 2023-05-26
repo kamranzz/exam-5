@@ -1,0 +1,28 @@
+/* .section-gap {
+    padding: 120px 0;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+.image-back{
+    height: 50px;
+    width: 50px;
+}
+.single-offer {
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 60px 0px rgba(246, 33, 75, 0.3);
+    text-align: center;
+    width: 350px;
+    height: 275px;
+}
